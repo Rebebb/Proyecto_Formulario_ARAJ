@@ -1,0 +1,114 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background:#495B73 ;
+    color: #D9C7B8;
+}
+
+.formulario
+{
+    width: 320px;
+    background: #A63C58;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    position: fixed;
+    left: 40%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+input[type = "text"]
+{
+    width: 100%;
+    background: none;
+    border: 1px solid #821214 ;
+    border-radius: 5px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    color: #D9C7B8;
+}
+
+input[type = "password"]
+{
+    width: 100%;
+    background: none;
+    border: 1px solid #821214;
+    border-radius: 5px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    color: #D9C7B8;
+}
+
+input[type = "radio"]
+{
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;    
+}
+
+input[type = "email"]
+{
+    width: 100%;
+    background: none;
+    border: 1px solid #821214;
+    border-radius: 5px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    color: #D9C7B8;
+}
+
+select[class ="seleccion"]
+{
+    width: 100%;
+    background: #A63C58;
+    border: 1px solid #821214;
+    border-radius: 5px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    color: #D9C7B8;
+}
+
+input[type = "phone"]
+{
+    width: 100%;
+    background: none;
+    border: 1px solid #821214;
+    border-radius: 5px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    color: #D9C7B8;
+}
+
+input[type="submit"]
+{
+    background: burlywood;
+    width: 100%;
+    border-radius: 5px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+    color: black;  
+    font-size: 15px;
+}
+
+input[type="submit"]:hover
+{
+    background: #ab805d;
+    transition: .6s;
+}
+
+::placeholder
+{
+    color: black;
+}
